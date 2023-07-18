@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto Slab', serif;
+    font-family: 'Work Sans', sans-serif;
+}
+
+
+
+
+/* header style */
+.header-container {
+    width: 100%;
+    height: 90vh;
+    border: 1px solid red;
+}
+
+.nav-bg {
+    /* border: 1px solid rgb(47, 0, 255); */
+    background: #FFF;
+box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid rgb(0, 255, 13); */
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 80px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    /* border: 1px solid lime; */
+}
+
+.logo h1 {
+    text-align: center;
+    font-size: 2.7rem;
+    font-weight: 700;
+}
+
+.game {
+    color: #FF42A5;
+}
+
+.manus {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    color: #3C354F;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.manus button {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    border-radius: 5px;
+    border: 0;
+    font-size: 1.2rem;
+    font-weight: 500;
+    background: rgba(11, 2, 35, 0.10);
+    padding: 10px 15px;
+}
+
+.manus li {
+    list-style: none;
+}
+
+.manus a {
+    text-decoration: none;
+}
